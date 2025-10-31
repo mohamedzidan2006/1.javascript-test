@@ -1,0 +1,13 @@
+let wealth=+prompt("enter a wealth");
+let boysNo=+prompt("enter a boysNo");
+let grilsNo=+prompt("enter a grilsNo");
+let wifetshare=(1/8)* wealth;
+console.log("wifeshare is:"+ wifetshare);
+let remain=wealth-wifetshare;
+let shareNo=(boysNo*2)+grilsNo*1;
+console.log("shareNo:"+shareNo);
+let shareValue=remain/shareNo;
+let boyValue=2*shareValue;
+let grilValue=shareValue;
+console.log("shareBoy:"+boyValue);
+console.log("shareGril:"+grilValue);
